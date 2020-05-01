@@ -79,7 +79,6 @@ for sinal in lista:  # ARMAZENA OS DADOS DA LISTA NA VARIAVEL
         direction = direcao.lower()  # -> PEGA A DIREÇÃO E DEIXA EM MINÚSCULO PARA NÃO CAUSAR ERRO NAS ENTRADAS
         if hora_atual == dados[1]:  # -> CONDIÇÃO: SE A HORA ATUAL FOR IGUAL A HORA DA LISTA DE SINAIS EXECUTAR OS COMANDOS ABAIXO:
             print('Operação realizada no par: ' + str(par) + ' ás ' + str(hora) + '. Timeframe: ' + str(timeframe) + ', Direção: ' + str(direcao) + ' Stake: ' + str(stake))  # -> MOSTRA OS DADOS DA OPERAÇÃO QUE IRÁ SER REALIZADA
-            # status, id = API.buy(int(configs['entrada']), configs['par'], dados[2], int(configs['timeframe']))
             print('=+=+=+' * 20)
             _, id = (API.buy(stake, par, direcao, timeframe))  # -> EXECUTA A OPERAÇÃO
             break
