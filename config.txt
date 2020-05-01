@@ -1,0 +1,3 @@
+[GERAL]
+email = email
+senha = password
