@@ -6,3 +6,6 @@ Robô que da entradas automáticas a partir da lista de sinais na corretora IQ O
 IQ Option API
 
 Recomendado [Iqoption API](https://github.com/dsinmsdj/iqoptionapi).
+
+### Suporte
+Acesse: http://hadesbot.com/forum/
